@@ -19,4 +19,6 @@ Below is the workflow to publish a service to the MGEL Enterprise Portal for the
   - Folder: RWSC 
   - Categories: RWSC 
   - Group: RWSC 
-  - Share level: Public 
+  - Share level: Public
+ 
+  The publishing part is in a Python script under seamap-arcgispro-gee repo - DensityModels/MDAT/UploadToPortal.py. Please read the notes in the script carefully before running it.
