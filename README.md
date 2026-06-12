@@ -18,11 +18,13 @@ Below is the workflow to publish a service to the MGEL Enterprise Portal for the
 - Notify the MGEL team. 
 
 ## MGEL's side 
-- Download the package and load it with ArcGIS Pro. 
+- Download the package and load it with ArcGIS Pro.
+  - Downloaded package is saved in V:\GIS_Phase2\RWSC RPT\RWSC_Samantha
+  - The package is unpacked in V:\GIS_Phase2\RWSC RPT\RWSC_Samantha\unpacked. This is a temporary folder. Every time the script is executed, this folder is first cleared.
 - Publish it to the Enterprise Portal. 
   - Folder: RWSC 
   - Categories: RWSC 
   - Group: RWSC 
   - Share level: Public
  
-  The publishing part is in a Python script under seamap-arcgispro-gee repo - DensityModels/MDAT/UploadToPortal.py. Please read the notes in the script carefully before running it.
+  All the steps above are done by a Python script under seamap-arcgispro-gee repo - DensityModels/MDAT/UploadToPortal.py. Please read the notes in the script carefully before running it.
