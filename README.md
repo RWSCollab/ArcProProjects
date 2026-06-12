@@ -4,7 +4,7 @@ Below is the workflow to publish a service to the MGEL Enterprise Portal for the
 ## Samantha's side 
 - Create an ArcGIS Pro project (.aprx). 
   - Can contain multiple maps. All the maps in the project will be published as separate weblayers. 
-  - The map name (title) has to be the service name. Letter cases, underscores, etc matter. Do not include version numbers. The spaces in the map name will be replaced with dashes "-".
+  - The map name (title) has to be the service name. Letter cases, spaces, underscores, etc matter. Do not include version numbers. The spaces in the map name will be replaced with dashes "-".
     - e.g., The map title "Passive Acoustic Monitoring" will become the service name "Passive_Acoustic_Monitoring". 
   - Can contain basemap though the basemap will not be included in the service. 
   - Make sure all data sources are local (e.g. file geodatabase, shapefile). No data from the enterprise geodatabase should be included. 
