@@ -8,7 +8,7 @@ Below is the workflow to publish a service to the MGEL Enterprise Portal for the
   - Can contain basemap though the basemap will not be included in the service. 
   - Make sure all data sources are local (e.g. file geodatabase, shapefile). No data from the enterprise geodatabase should be included. 
   - Make sure the visibility of the layers (the groups and layers are checked or unchecked) is managed according to what you expect when the service is initially loaded online. 
-  - The metadata should be entered in the map & layers’ metadata section.
+  - The metadata should be entered in the map & layers’ metadata section. The summary, tags, description, credits and use limitations of the map metadata will be used for the service metadata.
 - Package the project using the “Package project” tool.
   - Output file name should be the same as the map title.
   - Check "All versions" for the Package Version.
