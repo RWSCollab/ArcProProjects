@@ -16,7 +16,6 @@ Below is the workflow to publish a service to the MGEL Enterprise Portal for the
   - Check "Share outside of organization".
   - Uncheck "Include Toolboxes". 
 - Upload the package (.ppkx) to the GitHub repository at https://github.com/RWSCollab/ArcProProjects 
-- Notify the MGEL team. 
 
 ## Publishing to Enterprise Portal
 - Load the project with ArcGIS Pro
