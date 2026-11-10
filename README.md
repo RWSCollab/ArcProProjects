@@ -1,7 +1,7 @@
 # ArcProProjects
 Below is the workflow to publish a service to the MGEL Enterprise Portal for the RWSC Portal.
 
-## Samantha's side 
+## Generating ArcGIS Pro package 
 - Create an ArcGIS Pro project (.aprx). 
   - Can contain multiple maps. All the maps in the project will be published as separate weblayers. 
   - The map name (title) has to be the service name. Letter cases, spaces, underscores, etc matter. Do not include version numbers. The spaces in the map name will be replaced with dashes "-".
@@ -13,16 +13,13 @@ Below is the workflow to publish a service to the MGEL Enterprise Portal for the
 - Package the project using the “Package project” tool.
   - Output file name should be the same as the map title.
   - Check "All versions" for the Package Version.
+  - Check "Share outside of organization".
   - Uncheck "Include Toolboxes". 
 - Upload the package (.ppkx) to the GitHub repository at https://github.com/RWSCollab/ArcProProjects 
 - Notify the MGEL team. 
 
-## MGEL's side 
-- Download the package from this repo.
-  - Downloaded package is saved in V:\GIS_Phase2\RWSC RPT\RWSC_Samantha
-  - The file name in the repo (e.g. xxx.ppkx) has to be the same as the one in "projectPath" property of the definitions in the script.
-  - The package is unpacked in V:\GIS_Phase2\RWSC RPT\RWSC_Samantha\unpacked. This is a temporary folder. Every time the script is executed, this folder is first cleared.
-- Load the unpacked project with ArcGIS Pro
+## Publishing to Enterprise Portal
+- Load the project with ArcGIS Pro
 - Publish it as a map image layer to the Enterprise Portal. 
   - Folder: RWSC 
   - Categories: RWSC 
